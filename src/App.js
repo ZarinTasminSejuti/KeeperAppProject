@@ -15,8 +15,6 @@ function App()  {
         setNotes(prevNotes => {
           return [...prevNotes, newNote];
         });
-        
-    //console.log(note);
   }
 
 
@@ -46,16 +44,7 @@ function App()  {
             );
           })}
 
-{notes.map((noteItem, index) => {
-            return (
-            <Note 
-            key={index}
-            id={index}
-            title = {noteItem.title}
-            
-            onDelete={deleteNote} />
-            );
-          })}
+           
         <Footer />
       </div>
    
