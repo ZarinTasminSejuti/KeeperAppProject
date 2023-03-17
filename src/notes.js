@@ -1,4 +1,4 @@
-
+/*
 const notes = [
     {
     key: 1,
@@ -18,3 +18,5 @@ const notes = [
 
 
 export default notes;
+
+*/
