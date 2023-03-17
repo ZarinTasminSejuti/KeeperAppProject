@@ -26,6 +26,25 @@ body{
   word-wrap: break-word;
 }
 
+.pnote button {
+  margin-right: 10px;
+  color: #1abe04;
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  outline: none;
+  float: right;
+  background-color: #fafafa;
+}
+
+.pnote p{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 header {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   background-color: #1abe04;
@@ -76,15 +95,6 @@ header h1 {
   display: block;
 }
 
-.delete button {
-  margin-right: 10px;
-  color: #1abe04;
-  border: none;
-  padding: 10px;
-  font-weight: 20px;
-  cursor: pointer;
-  outline: none;
-}
 
 .footer {
   color: #ccc;

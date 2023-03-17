@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Delete } from '@mui/icons-material';
 //import notes from './notes';
 function Note(props){
 
@@ -8,11 +9,11 @@ function Note(props){
       }
 
     return (
-        <div className='delete'>
-            <p className ="pnote"><b>{props.title}</b>
+        <div className='pnote'>
+            <h2><b>{props.title}</b></h2>
                 <br/>
-            {props.content}</p>
-            <button onClick={handleClick}>DELETE</button>
+            <p>{props.content}</p>
+            <button onClick={handleClick}><Delete /></button>
         </div>
     )
 }
